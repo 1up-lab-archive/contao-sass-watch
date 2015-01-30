@@ -1,6 +1,6 @@
 {
-  "name": "oneup/contao-ical-export",
-  "description": "A contao module for downloading ical files generated from events. The output will follow RFC 2445 as best as possible.",
+  "name": "oneup/contao-sass-watch",
+  "description": "Yet another useless tool. May the source be with you!",
   "keywords": [
     "contao",
     "sass",
