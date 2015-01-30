@@ -41,7 +41,7 @@ class SassWatch
         return $this->replaceTag($strBuffer);
     }
 
-    public function replaceTag($strBuffer)
+    protected function replaceTag($strBuffer)
     {
         return str_replace('[[TL_CSS]]', $this->tag . "\n", $strBuffer);
     }
