@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.1">
+    <file datatype="php" original="system/modules/core/languages/en/tl_settings.php" source-language="en">
+        <body>
+            <trans-unit id="tl_settings.useSassWatch.0">
+                <source>Use SassWatch</source>
+            </trans-unit>
+            <trans-unit id="tl_settings.useSassWatch.1">
+                <source>Bypass Theme+ and generate CSS statically (e.g. sass --watch)</source>
+            </trans-unit>
+            <trans-unit id="tl_settings.inputFile.0">
+                <source>Input file</source>
+            </trans-unit>
+            <trans-unit id="tl_settings.inputFile.1">
+                <source>Please specify the path to your main SASS/SCSS file.</source>
+            </trans-unit>
+            <trans-unit id="tl_settings.outputFolder.0">
+                <source>Output folder</source>
+            </trans-unit>
+            <trans-unit id="tl_settings.outputFolder.1">
+                <source>Please specify the output directory (without filename).</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
