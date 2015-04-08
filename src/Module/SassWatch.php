@@ -15,7 +15,7 @@ class SassWatch
         $this->tag  = '<link rel="stylesheet" type="text/css" href="%s/%s.css" />';
         $this->host = \Environment::get('host');
 
-        $this->useSassWatch = $GLOBALS['TL_CONFIG']['useSassWatch'];
+        $this->useSassWatch = (bool) $GLOBALS['TL_CONFIG']['useSassWatch'];
         $this->outputFolder = $GLOBALS['TL_CONFIG']['outputFolder'];
 
         if ($this->useSassWatch) {
@@ -25,7 +25,7 @@ class SassWatch
 
     public function checkForReplace($strBuffer)
     {
-        if (true !== $this->useSassWatch) {
+        if (!$this->useSassWatch) {
             return $strBuffer;
         }
 
