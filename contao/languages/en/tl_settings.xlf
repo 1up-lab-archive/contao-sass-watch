@@ -6,7 +6,7 @@
                 <source>Use SassWatch</source>
             </trans-unit>
             <trans-unit id="tl_settings.useSassWatch.1">
-                <source>Bypass Theme+ and generate CSS statically (e.g. sass --watch)</source>
+                <source>Generate CSS statically (e.g. sass --watch)</source>
             </trans-unit>
             <trans-unit id="tl_settings.inputFile.0">
                 <source>Input file</source>
